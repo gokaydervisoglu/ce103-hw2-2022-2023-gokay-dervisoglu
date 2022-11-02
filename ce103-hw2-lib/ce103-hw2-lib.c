@@ -380,22 +380,6 @@ char* ce103_strcpy(char* foDestination, const char* fiSource)
 void ce103_hex2bin(char* fiHex, int fiHexLen, unsigned char* foBin)
 {
 	//TODO:Start from Here...
-}
-
-/**
-* @name    bin2hex (ce103_bin2hex)
-* @brief   \b Binary (BCD) to Hexadecimal Conversion
-*
-* Unpacks alpha numeric value, Example: 0x12 0x34 = "1234".
-*
-* @param [in]  fiBin      [\b unsigned char*]    Binary data to be converted.
-* @param [in]  fiBinLen   [\b int]				 Binary data length.
-* @param [out] foHex      [\b char*]			 Convertion result as ascii. Doubles the binary length.
-*
-*/
-void ce103_bin2hex(unsigned char* fiBin, int fiBinLen, char* foHex)
-{
-	//TODO:Start from Here...
 	//Variables named remainder, binaryval, i, hexadecimalval are created and hexadecimalval is set to zero
 	int remainder, binaryval, i, hexadecimalval = 0;
 	//A loop is created and this loop is set to false
@@ -460,6 +444,23 @@ void ce103_bin2hex(unsigned char* fiBin, int fiBinLen, char* foHex)
 			binaryval = binaryval / 10;
 		}
 	}
+}
+
+/**
+* @name    bin2hex (ce103_bin2hex)
+* @brief   \b Binary (BCD) to Hexadecimal Conversion
+*
+* Unpacks alpha numeric value, Example: 0x12 0x34 = "1234".
+*
+* @param [in]  fiBin      [\b unsigned char*]    Binary data to be converted.
+* @param [in]  fiBinLen   [\b int]				 Binary data length.
+* @param [out] foHex      [\b char*]			 Convertion result as ascii. Doubles the binary length.
+*
+*/
+void ce103_bin2hex(unsigned char* fiBin, int fiBinLen, char* foHex)
+{
+	//TODO:Start from Here...
+
 }
 
 
