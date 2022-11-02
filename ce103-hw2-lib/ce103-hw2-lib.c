@@ -589,5 +589,5 @@ int ce103_gcd(int fiNum1, int fiNum2)
 		}
 
 	}
-	return  - 1;
+	return - 1;
 }

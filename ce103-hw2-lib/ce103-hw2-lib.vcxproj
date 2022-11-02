@@ -160,6 +160,11 @@
   <ItemGroup>
     <ClCompile Include="ce103-hw2-lib.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ce103-hw2\ce103-hw2.vcxproj">
+      <Project>{1f38b3a7-a17b-40a9-8d81-14bac4c8940e}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
